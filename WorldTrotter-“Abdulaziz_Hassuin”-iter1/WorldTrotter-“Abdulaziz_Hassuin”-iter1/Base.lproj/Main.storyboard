@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WorldTrotter__Abdulaziz_Hassuin__iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is reall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ms0-sm-Hne">
+                                <rect key="frame" x="20" y="364.66666666666669" width="335" height="97.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Degeers Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idf-NF-qog">
+                                <rect key="frame" x="20" y="215.33333333333334" width="335" height="97.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Degeers Celsius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tks-Xq-NMK">
+                                <rect key="frame" x="20" y="675.66666666666663" width="335" height="97.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1C-99-n4C">
+                                <rect key="frame" x="20" y="493.33333333333331" width="335" height="97.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e19-cI-ASe">
+                                <rect key="frame" x="20" y="63.999999999999993" width="335" height="97.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e19-cI-ASe" secondAttribute="trailing" constant="20" id="7Zt-ao-fpC"/>
+                            <constraint firstItem="Tks-Xq-NMK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EUu-ss-o0I"/>
+                            <constraint firstItem="idf-NF-qog" firstAttribute="top" secondItem="e19-cI-ASe" secondAttribute="bottom" constant="54" id="Ebj-5x-hiR"/>
+                            <constraint firstItem="Tks-Xq-NMK" firstAttribute="width" secondItem="e19-cI-ASe" secondAttribute="width" id="Fx1-4X-RtK"/>
+                            <constraint firstItem="Ms0-sm-Hne" firstAttribute="height" secondItem="e19-cI-ASe" secondAttribute="height" id="Hsc-Ld-SB1"/>
+                            <constraint firstItem="Tks-Xq-NMK" firstAttribute="height" secondItem="e19-cI-ASe" secondAttribute="height" id="KMt-Ra-BkX"/>
+                            <constraint firstItem="k1C-99-n4C" firstAttribute="height" secondItem="e19-cI-ASe" secondAttribute="height" id="L1C-iD-box"/>
+                            <constraint firstItem="k1C-99-n4C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="P6J-L5-L3b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tks-Xq-NMK" secondAttribute="trailing" constant="20" id="PJd-u8-ANk"/>
+                            <constraint firstItem="Ms0-sm-Hne" firstAttribute="top" secondItem="idf-NF-qog" secondAttribute="bottom" constant="52" id="RAI-PV-f9o"/>
+                            <constraint firstItem="e19-cI-ASe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Sds-DK-YaW"/>
+                            <constraint firstItem="Tks-Xq-NMK" firstAttribute="top" secondItem="k1C-99-n4C" secondAttribute="bottom" constant="85" id="UFE-On-rwb"/>
+                            <constraint firstItem="idf-NF-qog" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VrR-c5-kop"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k1C-99-n4C" secondAttribute="trailing" constant="20" id="Vyd-rX-enZ"/>
+                            <constraint firstItem="Ms0-sm-Hne" firstAttribute="width" secondItem="e19-cI-ASe" secondAttribute="width" id="XRK-Fq-KQc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="idf-NF-qog" secondAttribute="trailing" constant="20" id="Yyi-Za-mQy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tks-Xq-NMK" secondAttribute="bottom" constant="5" id="d6k-jX-jMV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ms0-sm-Hne" secondAttribute="trailing" constant="20" id="kEK-Zn-Wpw"/>
+                            <constraint firstItem="idf-NF-qog" firstAttribute="height" secondItem="e19-cI-ASe" secondAttribute="height" id="lk0-zo-DgA"/>
+                            <constraint firstItem="k1C-99-n4C" firstAttribute="width" secondItem="e19-cI-ASe" secondAttribute="width" id="n7C-6A-96A"/>
+                            <constraint firstItem="k1C-99-n4C" firstAttribute="top" secondItem="Ms0-sm-Hne" secondAttribute="bottom" constant="31" id="oya-uc-tci"/>
+                            <constraint firstItem="e19-cI-ASe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="psv-av-uFd"/>
+                            <constraint firstItem="idf-NF-qog" firstAttribute="width" secondItem="e19-cI-ASe" secondAttribute="width" id="sdc-PG-vcE"/>
+                            <constraint firstItem="Ms0-sm-Hne" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wI3-Tg-qK8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.399999999999999" y="86.806596701649184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
