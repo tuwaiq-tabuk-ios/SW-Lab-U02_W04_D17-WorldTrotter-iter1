@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WorldTrotter_MarzouqAlmukhlif_iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Root_View">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jt-Fs-M6a" userLabel="212_Label">
+                                <rect key="frame" x="20" y="63.999999999999993" width="388" height="120.33333333333331"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VF-dS-UFN" userLabel="isRreally_Label">
+                                <rect key="frame" x="20" y="407.33333333333331" width="388" height="120.33333333333331"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGH-Mc-uW2" userLabel="Celsius_Label">
+                                <rect key="frame" x="20" y="751.66666666666663" width="388" height="120.33333333333337"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQX-YA-lam" userLabel="100_Label">
+                                <rect key="frame" x="20" y="579.66666666666663" width="388" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmI-qO-Rs5" userLabel="Fahrenheit_Label">
+                                <rect key="frame" x="20" y="235.33333333333337" width="388" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0VF-dS-UFN" secondAttribute="trailing" constant="20" id="1Dq-Pu-Id1"/>
+                            <constraint firstItem="0VF-dS-UFN" firstAttribute="top" secondItem="CmI-qO-Rs5" secondAttribute="bottom" constant="52" id="2kS-WZ-flw"/>
+                            <constraint firstItem="CmI-qO-Rs5" firstAttribute="height" secondItem="8Jt-Fs-M6a" secondAttribute="height" id="4DZ-qS-dPZ"/>
+                            <constraint firstItem="JQX-YA-lam" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7O2-tA-iiO"/>
+                            <constraint firstItem="CmI-qO-Rs5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DOn-Go-691"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CmI-qO-Rs5" secondAttribute="trailing" constant="20" id="FA2-ad-lR4"/>
+                            <constraint firstItem="BGH-Mc-uW2" firstAttribute="top" secondItem="JQX-YA-lam" secondAttribute="bottom" constant="52" id="GcN-4Q-Ubj"/>
+                            <constraint firstItem="JQX-YA-lam" firstAttribute="width" secondItem="8Jt-Fs-M6a" secondAttribute="width" id="IJO-E9-umi"/>
+                            <constraint firstItem="8Jt-Fs-M6a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Kzc-kv-8bl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BGH-Mc-uW2" secondAttribute="bottom" constant="20" id="N1z-59-XOQ"/>
+                            <constraint firstItem="8Jt-Fs-M6a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PYC-zc-Ih0"/>
+                            <constraint firstItem="BGH-Mc-uW2" firstAttribute="width" secondItem="8Jt-Fs-M6a" secondAttribute="width" id="Qcp-vg-yN5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BGH-Mc-uW2" secondAttribute="trailing" constant="20" id="Yq4-XS-Ury"/>
+                            <constraint firstItem="JQX-YA-lam" firstAttribute="height" secondItem="8Jt-Fs-M6a" secondAttribute="height" id="ba6-hx-500"/>
+                            <constraint firstItem="CmI-qO-Rs5" firstAttribute="top" secondItem="8Jt-Fs-M6a" secondAttribute="bottom" constant="51" id="bgD-4Q-tA0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JQX-YA-lam" secondAttribute="trailing" constant="20" id="fhc-W8-oHt"/>
+                            <constraint firstItem="JQX-YA-lam" firstAttribute="top" secondItem="0VF-dS-UFN" secondAttribute="bottom" constant="52" id="fjD-fe-zGz"/>
+                            <constraint firstItem="0VF-dS-UFN" firstAttribute="width" secondItem="8Jt-Fs-M6a" secondAttribute="width" id="hin-Sc-slx"/>
+                            <constraint firstItem="BGH-Mc-uW2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="j7J-Y1-Op4"/>
+                            <constraint firstItem="BGH-Mc-uW2" firstAttribute="height" secondItem="8Jt-Fs-M6a" secondAttribute="height" id="mHk-P1-Asj"/>
+                            <constraint firstItem="0VF-dS-UFN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nN9-kD-jts"/>
+                            <constraint firstItem="0VF-dS-UFN" firstAttribute="height" secondItem="8Jt-Fs-M6a" secondAttribute="height" id="vcF-mA-9Cu"/>
+                            <constraint firstItem="CmI-qO-Rs5" firstAttribute="width" secondItem="8Jt-Fs-M6a" secondAttribute="width" id="xnF-LM-1hj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Jt-Fs-M6a" secondAttribute="trailing" constant="20" id="ym8-7m-Pbr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="71.651785714285708"/>
+        </scene>
+    </scenes>
+</document>
