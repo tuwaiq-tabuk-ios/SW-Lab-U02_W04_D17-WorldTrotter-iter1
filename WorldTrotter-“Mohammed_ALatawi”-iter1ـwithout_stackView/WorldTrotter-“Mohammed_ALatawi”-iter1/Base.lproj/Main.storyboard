@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WorldTrotter__Mohammed_ALatawi__iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Root_View">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5K-mO-QZ2">
+                                <rect key="frame" x="20" y="54.999999999999993" width="388" height="89.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is really" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8D9-Ny-WDI">
+                                <rect key="frame" x="20" y="423.33333333333331" width="388" height="89.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yI-BL-XnM">
+                                <rect key="frame" x="20" y="622.66666666666663" width="388" height="89"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bji-Xn-wmX">
+                                <rect key="frame" x="20" y="782.66666666666663" width="388" height="89.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0d-sI-hDw">
+                                <rect key="frame" x="20" y="230.33333333333337" width="388" height="89"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <constraints>
+                            <constraint firstItem="bji-Xn-wmX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2wi-HG-Not"/>
+                            <constraint firstItem="bji-Xn-wmX" firstAttribute="width" secondItem="w5K-mO-QZ2" secondAttribute="width" id="3uQ-DQ-PcC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8D9-Ny-WDI" secondAttribute="trailing" constant="20" id="41h-nW-eWG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9yI-BL-XnM" secondAttribute="trailing" constant="20" id="4wX-Ty-EPY"/>
+                            <constraint firstItem="9yI-BL-XnM" firstAttribute="width" secondItem="w5K-mO-QZ2" secondAttribute="width" id="6H7-gW-0Ww"/>
+                            <constraint firstItem="w5K-mO-QZ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="92S-s2-Kgd"/>
+                            <constraint firstItem="M0d-sI-hDw" firstAttribute="top" secondItem="w5K-mO-QZ2" secondAttribute="bottom" constant="86" id="NGC-mi-mIh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M0d-sI-hDw" secondAttribute="trailing" constant="20" id="O27-Ai-iYS"/>
+                            <constraint firstItem="8D9-Ny-WDI" firstAttribute="top" secondItem="M0d-sI-hDw" secondAttribute="bottom" constant="104" id="QTI-55-dNn"/>
+                            <constraint firstItem="9yI-BL-XnM" firstAttribute="top" secondItem="8D9-Ny-WDI" secondAttribute="bottom" constant="110" id="SI0-dv-AvW"/>
+                            <constraint firstItem="bji-Xn-wmX" firstAttribute="height" secondItem="w5K-mO-QZ2" secondAttribute="height" id="VWK-xh-rYq"/>
+                            <constraint firstItem="M0d-sI-hDw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="W4L-Kn-Piw"/>
+                            <constraint firstItem="8D9-Ny-WDI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="W53-vB-7cf"/>
+                            <constraint firstItem="bji-Xn-wmX" firstAttribute="top" secondItem="9yI-BL-XnM" secondAttribute="bottom" constant="71" id="WRr-pd-xaI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w5K-mO-QZ2" secondAttribute="trailing" constant="20" id="XIG-a7-dcI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bji-Xn-wmX" secondAttribute="trailing" constant="20" id="afN-FA-PWk"/>
+                            <constraint firstItem="w5K-mO-QZ2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="ecF-4J-694"/>
+                            <constraint firstItem="M0d-sI-hDw" firstAttribute="width" secondItem="w5K-mO-QZ2" secondAttribute="width" id="fHx-RO-2Zc"/>
+                            <constraint firstItem="w5K-mO-QZ2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="pNm-AM-Qef"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bji-Xn-wmX" secondAttribute="bottom" constant="20" id="rga-Lb-usl"/>
+                            <constraint firstItem="9yI-BL-XnM" firstAttribute="height" secondItem="w5K-mO-QZ2" secondAttribute="height" id="sK9-Wc-UUn"/>
+                            <constraint firstItem="9yI-BL-XnM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vBK-2E-ZzY"/>
+                            <constraint firstItem="8D9-Ny-WDI" firstAttribute="height" secondItem="w5K-mO-QZ2" secondAttribute="height" id="vRO-pa-AnH"/>
+                            <constraint firstItem="M0d-sI-hDw" firstAttribute="height" secondItem="w5K-mO-QZ2" secondAttribute="height" id="vse-bP-FOT"/>
+                            <constraint firstItem="8D9-Ny-WDI" firstAttribute="width" secondItem="w5K-mO-QZ2" secondAttribute="width" id="yjG-tu-Rdf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256.875" y="-37.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
