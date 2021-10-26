@@ -20,3 +20,4 @@ First iteration of WorldTrotter App that currently shows the equivalence of degr
 ## DeadLine 
 Monday 25th October 9:15 am
 
+![Simulator Screen Shot - iPhone 12 - 2021-10-26 at 11 36 43](https://user-images.githubusercontent.com/91871529/138869415-3d161ea5-7af6-4b3d-af2f-031d626292a4.png)
