@@ -1,0 +1,20 @@
+//
+//  MapViewController.swift
+//  WorldTrotter- Programmatically-  “Bushra_Oudah”-iter1
+//
+//  Created by Bushra alatwi on 20/03/1443 AH.
+//
+
+import Foundation
+
+import UIKit
+class MapViewController: UIViewController {
+  override func viewDidLoad() {
+    
+    super.viewDidLoad()
+    
+  print("MapViewController loaded its View.")
+   }
+}
+
+
