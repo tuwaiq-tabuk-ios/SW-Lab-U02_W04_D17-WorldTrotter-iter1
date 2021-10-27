@@ -13,7 +13,7 @@ class MapViewController: UIViewController {
     
     super.viewDidLoad()
     
-  print("MapViewController loaded its View.")
+  print("Map ViewController loaded its View.")
    }
 }
 
