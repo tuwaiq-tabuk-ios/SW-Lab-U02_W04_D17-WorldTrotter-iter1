@@ -12,28 +12,15 @@
         <scene sceneID="gPY-nS-h1q">
             <objects>
                 <viewController id="RF5-fK-D0Q" customClass="MapViewController" customModule="WorldTrotter__Programmatically____Bushra_Oudah__iter1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="B7y-M1-aHl">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="IbM-Th-6Sc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aab-TO-ut0">
-                                <rect key="frame" x="0.0" y="44" width="390" height="717"/>
-                            </mapView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="CUN-Nv-nUM"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="CUN-Nv-nUM" firstAttribute="bottom" secondItem="aab-TO-ut0" secondAttribute="bottom" id="2oQ-JA-nbF"/>
-                            <constraint firstItem="aab-TO-ut0" firstAttribute="top" secondItem="CUN-Nv-nUM" secondAttribute="top" id="9mh-a9-yH2"/>
-                            <constraint firstItem="CUN-Nv-nUM" firstAttribute="trailing" secondItem="aab-TO-ut0" secondAttribute="trailing" id="9qs-pS-alk"/>
-                            <constraint firstItem="aab-TO-ut0" firstAttribute="leading" secondItem="CUN-Nv-nUM" secondAttribute="leading" id="D0x-rU-u7z"/>
-                        </constraints>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
                     <tabBarItem key="tabBarItem" title="Map -" image="map" catalog="system" id="0px-mq-dMe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OjT-Oz-1LY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1503" y="-480"/>
+            <point key="canvasLocation" x="-874" y="153"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vT7-yL-Znk">
@@ -47,79 +34,12 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="y3w-bx-Qp2"/>
                         <segue destination="RF5-fK-D0Q" kind="relationship" relationship="viewControllers" id="y7g-Vy-to9"/>
-                        <segue destination="y6K-0Q-m37" kind="relationship" relationship="viewControllers" id="CZd-zN-le9"/>
+                        <segue destination="y6K-0Q-m37" kind="relationship" relationship="viewControllers" id="wt0-7X-r9T"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lID-mA-Dvc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-318" y="-576"/>
-        </scene>
-        <!--Map-->
-        <scene sceneID="uTl-OI-OqO">
-            <objects>
-                <viewController id="bFS-5T-Nu1" customClass="MapViewController" customModule="WorldTrotter__Programmatically____Bushra_Oudah__iter1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="In5-1R-gSH">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WAd-T4-R9J" userLabel="Map-View-controller" customClass="MapViewController" customModule="WorldTrotter__Programmatically____Bushra_Oudah__iter1" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
-                            </mapView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sLd-aY-SJ4" userLabel="MapStackView">
-                                <rect key="frame" x="0.0" y="44" width="390" height="30"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIv-pl-F5E">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Standard">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c05-Fr-pQ6">
-                                        <rect key="frame" x="130" y="0.0" width="130" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Hybrid">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWW-on-kLn">
-                                        <rect key="frame" x="260" y="0.0" width="130" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Satellite">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Point of Interest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnN-VJ-ST5">
-                                <rect key="frame" x="0.0" y="82" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hjV-Ai-4ED">
-                                <rect key="frame" x="150" y="82" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="oiw-vV-dxn"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="oiw-vV-dxn" firstAttribute="trailing" secondItem="WAd-T4-R9J" secondAttribute="trailing" id="3xu-6b-91X"/>
-                            <constraint firstItem="WAd-T4-R9J" firstAttribute="top" secondItem="oiw-vV-dxn" secondAttribute="top" id="Bph-SE-eAg"/>
-                            <constraint firstItem="oiw-vV-dxn" firstAttribute="trailing" secondItem="sLd-aY-SJ4" secondAttribute="trailing" id="Cdd-Eg-2B2"/>
-                            <constraint firstItem="sLd-aY-SJ4" firstAttribute="top" secondItem="oiw-vV-dxn" secondAttribute="top" id="G2V-VG-VhZ"/>
-                            <constraint firstItem="oiw-vV-dxn" firstAttribute="bottom" secondItem="WAd-T4-R9J" secondAttribute="bottom" id="HZ2-rm-IsZ"/>
-                            <constraint firstItem="sLd-aY-SJ4" firstAttribute="leading" secondItem="oiw-vV-dxn" secondAttribute="leading" id="bl0-Vd-CRt"/>
-                            <constraint firstItem="WAd-T4-R9J" firstAttribute="leading" secondItem="oiw-vV-dxn" secondAttribute="leading" id="jYO-JN-VgU"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="GRE-rm-sf9"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nMf-Mc-hsj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-863.07692307692309" y="152.84360189573459"/>
         </scene>
         <!--convert-->
         <scene sceneID="tne-QT-ifu">
@@ -289,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IIB-qk-w2s" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071" y="-395"/>
+            <point key="canvasLocation" x="1263" y="162"/>
         </scene>
     </scenes>
     <resources>
