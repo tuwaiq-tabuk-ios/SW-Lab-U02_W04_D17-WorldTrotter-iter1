@@ -29,7 +29,7 @@
                             <constraint firstItem="aab-TO-ut0" firstAttribute="leading" secondItem="CUN-Nv-nUM" secondAttribute="leading" id="D0x-rU-u7z"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map -" id="0px-mq-dMe"/>
+                    <tabBarItem key="tabBarItem" title="Map -" image="map" catalog="system" id="0px-mq-dMe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OjT-Oz-1LY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,7 +177,7 @@
         <!--Quiz-->
         <scene sceneID="SsB-Py-jCX">
             <objects>
-                <viewController id="y6K-0Q-m37" customClass="Quiz" customModule="Trivial_Single_Choice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="y6K-0Q-m37" customClass="Quiz" customModule="WorldTrotter__Programmatically____Bushra_Oudah__iter1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6s2-UL-vJ6" userLabel="Root_View">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -278,7 +278,7 @@
                             <constraint firstAttribute="trailing" secondItem="JLv-Jj-Kkg" secondAttribute="trailing" id="vtc-4r-0ep"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quiz" id="PYc-v8-GYJ"/>
+                    <tabBarItem key="tabBarItem" title="Quiz" image="questionmark" catalog="system" id="PYc-v8-GYJ"/>
                     <connections>
                         <outlet property="falseButton" destination="1Zq-Hc-y9t" id="2DF-2b-1BB"/>
                         <outlet property="progressView" destination="YfV-Pz-2F2" id="KqG-RF-Eev"/>
@@ -294,6 +294,7 @@
     </scenes>
     <resources>
         <image name="map" catalog="system" width="128" height="110"/>
+        <image name="questionmark" catalog="system" width="96" height="128"/>
         <image name="thermometer.sun" catalog="system" width="114" height="128"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
