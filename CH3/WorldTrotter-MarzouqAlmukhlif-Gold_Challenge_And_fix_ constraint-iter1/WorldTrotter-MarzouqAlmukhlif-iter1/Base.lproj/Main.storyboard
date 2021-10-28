@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WorldTrotter_MarzouqAlmukhlif_iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Root_View">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jt-Fs-M6a" userLabel="212_Label">
+                                <rect key="frame" x="20" y="64" width="388" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8Jt-Fs-M6a" secondAttribute="height" multiplier="388:83" id="0LV-KH-JJV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VF-dS-UFN" userLabel="isRreally_Label">
+                                <rect key="frame" x="20" y="420" width="388" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0VF-dS-UFN" secondAttribute="height" multiplier="194:43" id="qXZ-uq-gM3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGH-Mc-uW2" userLabel="Celsius_Label">
+                                <rect key="frame" x="20" y="825" width="388" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BGH-Mc-uW2" secondAttribute="height" multiplier="388:67" id="X1J-DN-GjG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmI-qO-Rs5" userLabel="Fahrenheit_Label">
+                                <rect key="frame" x="20" y="147" width="388" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CmI-qO-Rs5" secondAttribute="height" multiplier="388:43" id="LF3-HW-q4S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQX-YA-lam" userLabel="100_Label">
+                                <rect key="frame" x="20" y="729" width="388" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JQX-YA-lam" secondAttribute="height" multiplier="97:24" id="rsx-CF-eLv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CmI-qO-Rs5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9Y8-C7-mnS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Jt-Fs-M6a" secondAttribute="trailing" constant="20" id="9eK-12-pBM"/>
+                            <constraint firstItem="BGH-Mc-uW2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CY3-Vh-39a"/>
+                            <constraint firstItem="BGH-Mc-uW2" firstAttribute="top" secondItem="JQX-YA-lam" secondAttribute="bottom" id="Cje-co-F9F"/>
+                            <constraint firstItem="8Jt-Fs-M6a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EUI-9a-BXh"/>
+                            <constraint firstItem="0VF-dS-UFN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FpJ-FR-MZE"/>
+                            <constraint firstItem="CmI-qO-Rs5" firstAttribute="top" secondItem="8Jt-Fs-M6a" secondAttribute="bottom" id="IU3-gL-P3l"/>
+                            <constraint firstItem="BGH-Mc-uW2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JQX-Vk-6P9"/>
+                            <constraint firstItem="JQX-YA-lam" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ksb-2Y-sns"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CmI-qO-Rs5" secondAttribute="trailing" constant="20" id="Mmy-9f-jJ6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JQX-YA-lam" secondAttribute="trailing" constant="20" id="SFb-Tt-RuU"/>
+                            <constraint firstItem="0VF-dS-UFN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dxR-CX-3Sf"/>
+                            <constraint firstItem="8Jt-Fs-M6a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hed-da-d9l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BGH-Mc-uW2" secondAttribute="trailing" constant="20" id="mrh-59-dlT"/>
+                            <constraint firstItem="0VF-dS-UFN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uIi-na-Fw7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0VF-dS-UFN" secondAttribute="trailing" constant="20" id="wC6-J3-cbb"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="X4D-2Y-xzq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="194.85981308411215" y="73.866090712742988"/>
+        </scene>
+    </scenes>
+</document>
