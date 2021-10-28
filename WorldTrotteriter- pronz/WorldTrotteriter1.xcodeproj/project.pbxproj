@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA8CCAE3272924D00081C7BA /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8CCAE0272924D00081C7BA /* questionViewController.swift */; };
+		CA8CCAE4272924D00081C7BA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8CCAE1272924D00081C7BA /* Question.swift */; };
+		CA8CCAE5272924D00081C7BA /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8CCAE2272924D00081C7BA /* QuestionBank.swift */; };
 		CAC36503272686BF0030E39F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC36502272686BF0030E39F /* AppDelegate.swift */; };
 		CAC36505272686BF0030E39F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC36504272686BF0030E39F /* SceneDelegate.swift */; };
 		CAC36507272686BF0030E39F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC36506272686BF0030E39F /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA8CCAE0272924D00081C7BA /* questionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = questionViewController.swift; path = "../../../../SW-U01-LABS-HOMEWORK/SW-Lab-U01_W03_D15-TriviaMultipleChoice-iter2/TriviaMultipleChoice \"Yousef Albalawi\"/TriviaMultipleChoice \"Yousef Albalawi\"/questionViewController.swift"; sourceTree = "<group>"; };
+		CA8CCAE1272924D00081C7BA /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CA8CCAE2272924D00081C7BA /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		CAC364FF272686BF0030E39F /* WorldTrotteriter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotteriter1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC36502272686BF0030E39F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAC36504272686BF0030E39F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +64,13 @@
 			children = (
 				CAC36502272686BF0030E39F /* AppDelegate.swift */,
 				CAC36504272686BF0030E39F /* SceneDelegate.swift */,
+				CA8CCAE1272924D00081C7BA /* Question.swift */,
+				CA8CCAE2272924D00081C7BA /* QuestionBank.swift */,
 				CAC36506272686BF0030E39F /* ViewController.swift */,
 				CAC36508272686C00030E39F /* Main.storyboard */,
 				CAC3650B272686C10030E39F /* Assets.xcassets */,
 				CAC3650D272686C10030E39F /* LaunchScreen.storyboard */,
+				CA8CCAE0272924D00081C7BA /* questionViewController.swift */,
 				CAC36510272686C10030E39F /* Info.plist */,
 			);
 			path = WorldTrotteriter1;
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8CCAE4272924D00081C7BA /* Question.swift in Sources */,
 				CAC36507272686BF0030E39F /* ViewController.swift in Sources */,
 				CAC36503272686BF0030E39F /* AppDelegate.swift in Sources */,
+				CA8CCAE3272924D00081C7BA /* questionViewController.swift in Sources */,
 				CAC36505272686BF0030E39F /* SceneDelegate.swift in Sources */,
+				CA8CCAE5272924D00081C7BA /* QuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,12 +12,12 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
-    let gradient = CAGradientLayer()
+   // let gradient = CAGradientLayer()
 
-    gradient.frame = view.bounds
-    gradient.colors = [UIColor.white.cgColor, UIColor.green.cgColor,UIColor.yellow.cgColor,UIColor.red.cgColor,UIColor.blue.cgColor]
+    //gradient.frame = view.bounds
+   // gradient.colors = [UIColor.white.cgColor, UIColor.green.cgColor,UIColor.yellow.cgColor,UIColor.red.cgColor,UIColor.blue.cgColor]
 
-    view.layer.insertSublayer(gradient, at: 0)
+    //view.layer.insertSublayer(gradient, at: 0)
   }
   
 
