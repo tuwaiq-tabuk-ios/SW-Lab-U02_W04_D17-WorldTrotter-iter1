@@ -7,7 +7,6 @@
 
 import UIKit
 import MapKit
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
